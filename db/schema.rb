@@ -11,10 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181008223949) do
-
-# Could not dump table "appointments" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+ActiveRecord::Schema.define(version: 20181008225558) do
 
   create_table "doctors", force: :cascade do |t|
     t.string   "name"
