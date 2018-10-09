@@ -1,5 +1,5 @@
 <ul>
 <%@doctor.appointments.each do |appt|%>
-<li><%=appt.appointment_datetime.strftime('%B %d, %G at %R')%></li>
+<li><%=appt.patient%><%=appt.appointment_datetime.strftime('%B %d, %G at %R')%></li>
 <%end%>
 </ul>
